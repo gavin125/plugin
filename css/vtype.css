@@ -1,0 +1,12 @@
+@charset "utf-8";
+.Vtype{ width: 400px; margin: 20px auto; border:solid 1px #eee; padding: 20px;}
+.Vtype label{ display: block; height: 26px; }
+.Vtype span{ display: inline-block; width: 100px; text-align: right; padding: 4px 0; float: left; }
+.Vtype input{ padding: 3px; }
+.Vtype .pwlevel{ margin: 0;}
+.Vtype .pwlevel em{ display: inline-block; width: 59px;height: 20px; background: #fea; text-align: center; font-size: 12px; font-style: normal; line-height: 20px; margin-right: 1px;}
+.Vtype .pwlevel em.active{ background: #fd5; }
+.Vtype .msg{ color: #999; font-size: 12px; font-style: normal; margin: 0; height: 20px; line-height: 20px; }
+.Vtype .msg i{ background: url("../images/vtypeicon.jpg");display: inline-block; width: 20px; height: 20px; float: left; margin-right: 3px;}
+.Vtype .msg .error{ background-position: center;}
+.Vtype .msg .ok{ background-position: bottom;}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>表单验证DEMO</title>
+    <link rel="stylesheet" href="css/vtype.css"/>
+</head>
+<body>
+<div class="Vtype">
+    <form action="">
+        <div id="username">
+            <label for="uName"><span>用户名：</span><input id="uName" type="text"/></label>
+            <p class="msg"></p>
+        </div>
+        <div id="password">
+            <label for="pWord"><span>密码：</span><input id="pWord" type="password"/></label>
+            <p class="pwlevel"><span></span><em class="active">弱</em><em>中</em><em>强</em></p>
+            <p class="msg"></p>
+        </div>
+        <div id="again_pw">
+            <label for="againPw"><span>重复密码：</span><input id="againPw" type="password" disabled="disabled"/></label>
+            <p class="msg"></p>
+        </div>
+        <div id="phonecode">
+            <label for="pCode"><span>手机号码：</span><input id="pCode" type="text"/></label>
+            <p class="msg"></p>
+        </div>
+        <div id="e_mail">
+            <label for="eMail"><span>电子邮箱：</span><input id="eMail" type="text"/></label>
+            <p class="msg"></p>
+            <div class="select"></div>
+        </div>
+        <div id="idcard">
+            <label for="iCard"><span>身份证：</span><input id="iCard" type="text"/></label>
+            <p class="msg"></p>
+        </div>
+        <div id="bankcard">
+            <label for="bCard"><span>银行卡：</span><input id="bCard" type="text"/></label>
+            <p class="msg"></p>
+        </div>
+    </form>
+</div>
+<div id="dom">
+
+    <div></div>
+
+    <div></div>
+
+    <div></div>
+
+</div>
+<script type="text/javascript" src="js/Vtypejs.js"></script>
+
+</body>
+</html>
