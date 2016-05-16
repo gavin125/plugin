@@ -13,7 +13,7 @@ window.onload=function(){
     };
     uName.onblur=function(){
         var msg=username.getElementsByTagName("p")[0];
-        var re=/^\w{5,15}$/i;
+        var re=/^[a-zA-Z]\w{4,14}$/i;
         if(this.value==""){//为空
             msg.innerHTML="<span></span><i class='error'></i>请输入用户名"
         }else if(!re.test(this.value)){//格式不正确
@@ -43,7 +43,7 @@ window.onload=function(){
     };
     pWord.onblur=function(){
         var msg=password.getElementsByTagName("p")[1];
-        var re=/^[a-zA-Z]\w{5,17}$/i;
+        var re=/^[\@A-Za-z0-9\!\#\$\%\^\&\*\.\~]{6,18}$/i;
         if(this.value==""){//为空
             msg.innerHTML="<span></span><i class='error'></i>请输入设置密码"
         }else if(this.value.length<6){//密码太短

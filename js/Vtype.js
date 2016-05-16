@@ -10,7 +10,7 @@ var Vtype={
         a.focusin(function(){
             msg.html("<span></span><i></i>以字母、数字、下划线组成的5-15字符");
         }).focusout(function(){
-            var re=/^\w{5,15}$/i;//5-15位数字或字母下划线
+            var re=/^[a-zA-Z]\w{4,14}$/i;//5-15位数字或字母下划线
             if(a.val()==""){
                 msg.html("<span></span><i class='error'></i>请输入用户名")
             }else if(!re.test(this.value)) {
@@ -35,7 +35,7 @@ var Vtype={
             }
             if(a.val().length>=6){b.removeAttr("disabled");}
         }).focusout(function(){
-            var re=/^[a-zA-Z]\w{5,17}$/i;
+            var re=/^[\@A-Za-z0-9\!\#\$\%\^\&\*\.\~]{6,18}$/i;
             if(a.val()==""){
                 msg.html("<span></span><i class='error'></i>请输入密码")
             }else if(a.val().length<6) {
