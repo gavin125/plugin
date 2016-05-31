@@ -1,5 +1,18 @@
 # Jquery插件合集
-<h2>表单验证Vtype</h2>
+<h2><a href="http://gavin125.github.io/plugin/Slide">图片滚动插件Slide</a></h2>
+<p>
+1、左右无缝滚动 scrollX<br/>
+2、带下标左右滚动 scrollSub<br/>
+3、左右逐张滚动 scrollOne<br/>
+4、带下标图片切换 switchAlpha<br/>
+5、上下无缝滚动 scrollY<br/>
+6、上下逐张滚动 scrollOneY<br/>
+7、左右手风琴效果 Accordion<br/>
+8、带下标上下滚动 scrollSubY<br/>
+9、全屏漂浮图标 fullFly
+</p>
+
+<h2><a href="http://gavin125.github.io/plugin/Vtype">表单验证Vtype</a></h2>
 <p>分为两个版本：<br/>1、Vtypejs.js为原生js版本<br/>2、Vtype.js为jquery插件<p>
 <p>验证效果为：获得焦点时出现提示，失去焦点时判断结果（密码强度为键盘输入实时判断）<p>
 
@@ -13,16 +26,3 @@
   6、银行卡：16或19位数字<br/>
 </p>
 
-<h2>图片轮播Slide</h2>
-<h4>JS标准滚动效果合集DOME</h4>
-<p>
-1、左右无缝滚动 scrollX<br/>
-2、带下标左右滚动 scrollSub<br/>
-3、左右逐张滚动 scrollOne<br/>
-4、带下标图片切换 switchAlpha<br/>
-5、上下无缝滚动 scrollY<br/>
-6、上下逐张滚动 scrollOneY<br/>
-7、左右手风琴效果 Accordion<br/>
-8、带下标上下滚动 scrollSubY<br/>
-9、全屏漂浮图标 fullFly
-</p>
