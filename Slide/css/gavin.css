@@ -1,0 +1,78 @@
+/*allshow*/
+h1.title{text-align:center; font-size:24px; padding:15px 0; border-bottom:solid 1px #ccc; background:#eee; margin-bottom:30px;}
+.allshow{overflow:hidden; margin:0 auto; width:1260px;}
+.allshow li.box{float:left; width:610px;  border:solid 5px #eee; margin-bottom:20px;}
+.allshow li.even{float:right;}
+h2.name{text-align:center; font-size:14px;background:green; color:#fff; padding:5px 0; margin-bottom:10px;}
+ul.list{overflow:hidden;}
+.list li{width:240px; padding:0;}
+.note{background:#eee;margin-top:10px;padding:8px 0;}
+.note p{text-indent:2em; color:#0c6;margin:0;}
+
+/*scrollX*/
+.scrollX{position:relative; margin:0 auto; width:580px; height:150px; }
+.scrollX .visitable{overflow:hidden; width:530px; margin:0 auto;}
+.scrollX .list{width:9999em;}
+.scrollX .list li{float:left; margin-right:10px;}
+.scrollX .pBtn,.scrollX .nBtn{position:absolute; left:0; background:#ccc; padding:66px 5px; cursor:pointer;}
+.scrollX .nBtn{left:auto; right:0;}
+.scrollX .pBtn:hover,.scrollX .nBtn:hover{color:#fff; background:#c00;text-decoration:none;}
+
+/*scrollSub*/
+.scrollSub{position:relative; margin:0 auto; width:240px; height:150px; }
+.scrollSub .visitable{overflow:hidden; }
+.scrollSub .list{width:9999em;}
+.scrollSub .list li{float:left;}
+.scrollSub .dot{position:absolute; bottom:10px; right:5px; width:100px;}
+.scrollSub .dot a{display:block; float:left; width:15px; text-align:center; margin-right:5px; background:#fff; cursor:pointer;}
+.scrollSub .dot a:hover,.scrollSub .dot a.hover{background:#c00; color:#fff; text-decoration:none;}
+
+/*scrollOne*/
+.scrollOne{position:relative; margin:0 auto; width:540px; height:150px; }
+.scrollOne .visitable{overflow:hidden; width:490px; margin:0 auto;}
+.scrollOne .list{width:9999em;}
+.scrollOne .list li{float:left; margin-right:10px;}
+.scrollOne .pBtn,.scrollOne .nBtn{position:absolute; left:0; background:#ccc; padding:66px 5px; cursor:pointer;}
+.scrollOne .nBtn{left:auto; right:0; }
+.scrollOne .pBtn:hover,.scrollOne .nBtn:hover{color:#fff; background:#c00;text-decoration:none;}
+
+/*switchAlpha*/
+.switchAlpha{position:relative; margin:0 auto; width:240px; height:150px; }
+.switchAlpha .list li{position:absolute;}
+.switchAlpha .dot{position:absolute; z-index:9; bottom:10px; left:95px; width:75px;}
+.switchAlpha .dot a{display:block; float:left; width:10px; height:10px;margin-right:5px; background:#333; cursor:pointer;}
+.switchAlpha .dot a:hover,.switchAlpha .dot a.hover{background:#c00; color:#fff; text-decoration:none;}
+
+/*scrollY*/
+.scrollY{position:relative; margin:0 auto; width:240px; padding:30px 0;}
+.scrollY .list{overflow:hidden;height:305px;}
+.scrollY .list li{height:150px; margin-bottom:5px;}
+.scrollY .pBtn,.scrollY .nBtn{position:absolute; top:0; background:#ccc; padding:4px 114px; cursor:pointer;}
+.scrollY .nBtn{top:auto; bottom:0;}
+.scrollY .pBtn:hover,.scrollY .nBtn:hover{color:#fff; background:#c00;text-decoration:none;}
+
+/*scrollOneY*/
+.scrollOneY{position:relative; margin:0 auto; width:240px; padding:30px 0;}
+.scrollOneY .list{overflow:hidden;height:305px;}
+.scrollOneY .list li{height:150px; margin-bottom:5px;}
+.scrollOneY .pBtn,.scrollOneY .nBtn{position:absolute; top:0; background:#ccc; padding:4px 114px; cursor:pointer;}
+.scrollOneY .nBtn{top:auto; bottom:0;}
+.scrollOneY .pBtn:hover,.scrollOneY .nBtn:hover{color:#fff; background:#c00;text-decoration:none;}
+
+/*Accordion*/
+.Accordion{position:relative; width:450px; margin:0 auto; }
+.Accordion .list{ overflow:hidden;height:150px;}
+.Accordion .list li{float:left; margin-right:2px; overflow:hidden; cursor:pointer;}
+
+/*scrollSubY*/
+.scrollSubY{position:relative; margin:0 auto; width:240px; height:150px; overflow:hidden;}
+.scrollSubY .list{overflow:hidden;height:305px;}
+.scrollSubY .list li{height:150px;}
+.scrollSubY .dot{position:absolute; bottom:10px; right:5px; width:100px;}
+.scrollSubY .dot a{display:block; float:left; width:15px; text-align:center; margin-right:5px; background:#fff; cursor:pointer;}
+.scrollSubY .dot a:hover,.scrollSubY .dot a.hover{background:#c00; color:#fff; text-decoration:none;}
+
+/*fullFly*/
+.fullFly{ position:absolute; z-index:999;}
+.fullFly .close{ position:absolute;top:0; right:-19px; border:solid 1px #000; padding:0 5px; cursor:pointer; background:#fff;}
+a.close:hover{ text-decoration:none; color:#f00; border-color:#f00;}

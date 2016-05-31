@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Designer:gavin.gu[古雷] Developer:gavin.gu[古雷] date:20140703-->
+<title>【JS标准滚动效果合集DOME】</title>
+<meta name="keywords" content="JS标准 滚动效果 合集 DOME" />
+<meta name="description" content="" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="pragma" Content="no-cach" />
+<meta name="robots" content="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="css/reset.min.css">
+<link rel="stylesheet" type="text/css" href="css/gavin.css">
+</head>
+
+<body>
+<h1 class="title">JS标准滚动效果合集DOME</h1>
+<ul class="allshow">
+	<li class="box">
+		<h2 class="name">左右无缝滚动 scrollX</h2>
+<!--左右无缝滚动开始-->
+		<div class="scrollX">
+			<a class="pBtn">前</a><a class="nBtn">后</a>
+			<div class="visitable">
+				<ul class="list">
+					<li><img src="images/01.jpg" width="240" height="150" /></li>
+					<li><img src="images/02.jpg" width="240" height="150" /></li>
+					<li><img src="images/03.jpg" width="240" height="150" /></li>
+					<li><img src="images/04.jpg" width="240" height="150" /></li>
+					<li><img src="images/05.jpg" width="240" height="150" /></li>
+				</ul>
+			</div>
+		</div>
+<!--左右无缝滚动结束-->
+		<div class="note">
+			<h4>使用说明：</h4>
+			1、HTML引用22-33行，可修改：图片数量，是否有按钮<br />
+			2、CSS引用13-19行，可修改：案例位置/尺寸/样式，整体尺寸<br />
+			3、JS参数说明：gavin.scrollX(a,speed,t,l)<br />
+			<p>a：DOM节点，speed：自动滚动的速度（越小越快），t：前后点击移动执行时间，l：前后点击移动距离<p>
+		</div>
+	</li>
+
+																																																																		
+
+	<li class="box even">
+		<h2 class="name">带下标左右滚动 scrollSub</h2>
+<!--带下标左右滚动开始-->
+		<div class="scrollSub">
+			<div class="visitable">
+				<ul class="list">
+					<li><img src="images/01.jpg" width="240" height="150" /></li>
+					<li><img src="images/02.jpg" width="240" height="150" /></li>
+					<li><img src="images/03.jpg" width="240" height="150" /></li>
+					<li><img src="images/04.jpg" width="240" height="150" /></li>
+					<li><img src="images/05.jpg" width="240" height="150" /></li>
+				</ul>
+				<div class="dot"><a class="hover">1</a><a>2</a><a>3</a><a>4</a><a>5</a></div>
+			</div>
+		</div>
+<!--带下标左右滚动结束-->
+		<div class="note">
+			<h4>使用说明：</h4>
+			1、HTML引用49-60行，可修改：图片/下标数量，下标数字<br />
+			2、CSS引用22-28行，可修改：下标位置/样式，整体尺寸<br />
+			3、JS参数说明：gavin.scrollSub(a,t1,t2)<br />
+			<p>a：DOM节点，t1：滚动间隔时间，t2：滚动执行时间<p>
+		</div>
+	</li>
+
+																																																																		
+
+	<li class="box">
+		<h2 class="name">左右逐张滚动 scrollOne</h2>
+<!--左右逐张滚动开始-->
+		<div class="scrollOne">
+			<a class="pBtn">前</a><a class="nBtn">后</a>
+			<div class="visitable">
+				<ul class="list">
+					<li><img src="images/01.jpg" width="240" height="150" /></li>
+					<li><img src="images/02.jpg" width="240" height="150" /></li>
+					<li><img src="images/03.jpg" width="240" height="150" /></li>
+					<li><img src="images/04.jpg" width="240" height="150" /></li>
+					<li><img src="images/05.jpg" width="240" height="150" /></li>
+				</ul>
+			</div>
+		</div>
+<!--左右逐张滚动结束-->
+		<div class="note">
+			<h4>使用说明：</h4>
+			1、HTML引用76-87行，可修改：图片数量，是否有按钮<br />
+			2、CSS引用31-37行，可修改：案例位置/尺寸/样式，整体尺寸<br />
+			3、JS参数说明：gavin.scrollOne(a,t1,t2)<br />
+			<p>a：DOM节点，t1：滚动间隔时间，t2：滚动执行时间<p>
+		</div>
+	</li>
+
+																																																																		
+
+	<li class="box even">
+		<h2 class="name">带下标图片切换 switchAlpha</h2>
+<!--带下标图片切换开始-->
+		<div class="switchAlpha">
+			<ul class="list">
+				<li><img src="images/01.jpg" width="240" height="150" /></li>
+				<li><img src="images/02.jpg" width="240" height="150" /></li>
+				<li><img src="images/03.jpg" width="240" height="150" /></li>
+				<li><img src="images/04.jpg" width="240" height="150" /></li>
+				<li><img src="images/05.jpg" width="240" height="150" /></li>
+			</ul>
+			<div class="dot"><a class="hover"></a><a></a><a></a><a></a><a></a></div>
+		</div>
+<!--带下标图片切换结束-->
+		<div class="note">
+			<h4>使用说明：</h4>
+			1、HTML引用103-112行，可修改：图片/下标数量<br />
+			2、CSS引用40-44行，可修改：下标位置/样式，整体尺寸<br />
+			3、JS参数说明：gavin.switchAlpha(a,t1,t2)<br />
+			<p>a：DOM节点，t1：滚动间隔时间，t2：滚动执行时间<p>
+		</div>
+	</li>
+
+																																																																		
+
+	<li class="box">
+		<h2 class="name">上下无缝滚动 scrollY</h2>
+<!--上下无缝滚动开始-->
+		<div class="scrollY">
+			<a class="pBtn">前</a><a class="nBtn">后</a>
+			<ul class="list">
+				<li><img src="images/01.jpg" width="240" height="150" /></li>
+				<li><img src="images/02.jpg" width="240" height="150" /></li>
+				<li><img src="images/03.jpg" width="240" height="150" /></li>
+				<li><img src="images/04.jpg" width="240" height="150" /></li>
+				<li><img src="images/05.jpg" width="240" height="150" /></li>
+			</ul>
+		</div>
+<!--上下无缝滚动结束-->
+		<div class="note">
+			<h4>使用说明：</h4>
+			1、HTML引用128-137行，可修改：图片数量，是否有按钮<br />
+			2、CSS引用47-52行，可修改：案例位置/尺寸/样式，整体尺寸<br />
+			3、JS参数说明：gavin.scrollY(a,speed,t,l)<br />
+			<p>a：DOM节点，speed：自动滚动的速度（越小越快），t：前后点击移动执行时间，l：前后点击移动距离<p>
+		</div>
+	</li>
+
+																																																																		
+
+	<li class="box even">
+		<h2 class="name">上下逐张滚动 scrollOneY</h2>
+<!--上下逐张滚动开始-->
+		<div class="scrollOneY">
+			<a class="pBtn">前</a><a class="nBtn">后</a>
+			<ul class="list">
+				<li><img src="images/01.jpg" width="240" height="150" /></li>
+				<li><img src="images/02.jpg" width="240" height="150" /></li>
+				<li><img src="images/03.jpg" width="240" height="150" /></li>
+				<li><img src="images/04.jpg" width="240" height="150" /></li>
+				<li><img src="images/05.jpg" width="240" height="150" /></li>
+			</ul>
+		</div>
+<!--上下逐张滚动结束-->
+		<div class="note">
+			<h4>使用说明：</h4>
+			1、HTML引用153-162行，可修改：图片数量，是否有按钮<br />
+			2、CSS引用55-60行，可修改：案例位置/尺寸/样式，整体尺寸<br />
+			3、JS参数说明：gavin.scrollOneY(a,t1,t2)<br />
+			<p>a：DOM节点，t1：滚动间隔时间，t2：滚动执行时间<p>
+		</div>
+	</li>
+
+																																																																		
+
+	<li class="box">
+		<h2 class="name">左右手风琴效果 Accordion</h2>
+<!--左右手风琴效果开始-->
+		<div class="Accordion">
+			<ul class="list">
+				<li><img src="images/01.jpg" width="240" height="150" /></li>
+				<li><img src="images/02.jpg" width="240" height="150" /></li>
+				<li><img src="images/03.jpg" width="240" height="150" /></li>
+				<li><img src="images/04.jpg" width="240" height="150" /></li>
+				<li><img src="images/05.jpg" width="240" height="150" /></li>
+			</ul>
+		</div>
+<!--左右手风琴效果结束-->
+		<div class="note">
+			<h4>使用说明：</h4>
+			1、HTML引用178-186行，可修改：图片数量<br />
+			2、CSS引用63-65行，可修改：整体位置/尺寸/样式<br />
+			3、JS参数说明：gavin.Accordion(a,t1,t2)<br />
+			<p>a：DOM节点，t1：滚动间隔时间，t2：滚动执行时间<p>
+		</div>
+	</li>
+
+																																																																		
+
+	<li class="box even">
+		<h2 class="name">带下标上下滚动 scrollSubY</h2>
+<!--带下标上下滚动开始-->
+		<div class="scrollSubY">
+			<ul class="list">
+				<li><img src="images/01.jpg" width="240" height="150" /></li>
+				<li><img src="images/02.jpg" width="240" height="150" /></li>
+				<li><img src="images/03.jpg" width="240" height="150" /></li>
+				<li><img src="images/04.jpg" width="240" height="150" /></li>
+				<li><img src="images/05.jpg" width="240" height="150" /></li>
+			</ul>
+            <div class="dot"><a class="hover">1</a><a>2</a><a>3</a><a>4</a><a>5</a></div>
+		</div>
+<!--带下标上下滚动结束-->
+		<div class="note">
+			<h4>使用说明：</h4>
+			1、HTML引用199-210行，可修改：图片数量<br />
+			2、CSS引用68-73行，可修改：下标位置/样式，整体尺寸<br />
+			3、JS参数说明：gavin.scrollSubY(a,t1,t2)<br />
+			<p>a：DOM节点，t1：滚动间隔时间，t2：滚动执行时间<p>
+		</div>
+	</li>
+
+	<li class="box">
+		<h2 class="name">全屏漂浮图标 fullFly</h2>
+<!--全屏漂浮图标开始-->
+<div class="fullFly"><img src="images/fly.jpg" width="100" height="50" border="0" alt=""><a class="close">X</a></div>
+<!--全屏漂浮图标结束-->
+	  <div class="note">
+			<h4>使用说明：</h4>
+			1、HTML引用255行，可修改：浮标图片/关闭按钮<br />
+			2、CSS引用76-78行，可修改：关闭按钮样式<br />
+			3、JS参数说明：gavin.fullFly(a,x,y,s,m)<br />
+			<p>a:DOM节点,x:起始横坐标,y:起始纵坐标,s:每次移动的距离(px),m:动画间隔时间<p>
+		</div>
+	</li>
+</ul>
+
+
+
+</body>
+</html>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/gavin.js"></script>
+<script type="text/javascript">
+gavin.scrollX($(".scrollX"),30,500,200);
+gavin.scrollSub($(".scrollSub"),2000,200);
+gavin.scrollOne($(".scrollOne"),2000,200);
+gavin.switchAlpha($(".switchAlpha"),2000,200);
+gavin.scrollY($(".scrollY"),30,300,200);
+gavin.scrollOneY($(".scrollOneY"),2000,200);
+gavin.Accordion($(".Accordion"),2000,200);
+gavin.scrollSubY($(".scrollSubY"),2000,200);
+gavin.fullFly($(".fullFly"),50,50,1,15);
+</script>
